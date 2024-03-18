@@ -7,14 +7,14 @@ int main() {
     int n;
     cin >> n;
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
         int p;
         cin >> p;
 
         int maxPrice = 0;
         string maxPlayer;
 
-        for (int j = 0; j < p; ++j) {
+        for (int j = 0; j < p; j++) {
             int price;
             string player;
             cin >> price >> player;
